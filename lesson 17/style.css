@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.timer {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+.button_cage {
+  width: 500px;
+  height: 100px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  width: 125px;
+  height: 35px;
+  background-color: rgb(209, 86, 86);
+  border: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.puzzle-box {
+  width: 38%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  margin: -70px auto;
+}
+.puzzle {
+  width: 300px;
+  height: 300px;
+  box-shadow: 3px 3px 10px 8px grey;
+  display: flex;
+  flex-flow: row wrap;
+}
+.disable {
+  opacity: 0.6;
+}
+.puzzle_col,
+.puzz {
+  width: 75px;
+  height: 75px;
+}
+
+.puzz[value="1"] {
+  background-position: 0 0;
+}
+
+.puzz[value="2"] {
+  background-position: -75px 0;
+}
+
+.puzz[value="3"] {
+  background-position: -150px 0;
+}
+
+.puzz[value="4"] {
+  background-position: -225px 0;
+}
+.puzz[value="5"] {
+  background-position: 0 -75px;
+}
+.puzz[value="6"] {
+  background-position: -75px -75px;
+}
+.puzz[value="7"] {
+  background-position: -150px -75px;
+}
+.puzz[value="8"] {
+  background-position: -225px -75px;
+}
+.puzz[value="9"] {
+  background-position: 0 -150px;
+}
+.puzz[value="10"] {
+  background-position: -75px -150px;
+}
+.puzz[value="11"] {
+  background-position: -150px -150px;
+}
+.puzz[value="12"] {
+  background-position: -225px -150px;
+}
+.puzz[value="13"] {
+  background-position: 0 -225px;
+}
+.puzz[value="14"] {
+  background-position: -75px -225px;
+}
+.puzz[value="15"] {
+  background-position: -150px -225px;
+}
+.puzz[value="16"] {
+  background-position: -225px -225px;
+}
+
+.message,
+.wrong,
+.good {
+  width: 700px;
+  height: 250px;
+  border-radius: 5px;
+  outline: 2px solid grey;
+  position: absolute;
+  display: none;
+  background-color: white;
+  top: 0px;
+  left: 60vh;
+}
+.announcement,
+.announcement_wrong,
+.announcement_good {
+  width: 700px;
+  height: 100px;
+  border: 2px solid #b9b9b8;
+  border-left: none;
+  border-right: none;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.none_button,
+.none_button2 {
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checker_button {
+  width: 70px;
+  height: 40px;
+  background-color: green;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn_case {
+  display: flex;
+  margin-left: 270px;
+  margin-top: 30px;
+  width: 150px;
+  justify-content: space-between;
+}
+.btn_case2,
+.btn_case3 {
+  display: flex;
+  margin-left: 320px;
+  margin-top: 30px;
+  width: 150px;
+  justify-content: space-between;
+}
